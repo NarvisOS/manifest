@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/"
-           revision="refs/tags/android-10.0.0_r35" />
+           revision="refs/tags/android-10.0.0_r40" />
 
   <!-- AOSP -->
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" />
@@ -655,8 +655,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- GZOSP manifest -->
-  <include name="gzosp_default.xml" />
+  <!-- NARVIS manifest -->
+  <include name="narvis_default.xml" />
 
   <!-- CAF manifest -->
   <include name="caf_default.xml" />
