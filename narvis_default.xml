@@ -82,6 +82,7 @@
   <project path="system/core" name="system_core" groups="pdk" remote="narvis" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="narvis" />
   <project path="system/keymaster" name="system_keymaster" groups="pdk" remote="narvis" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="narvis" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="narvis" />
   <project path="vendor/narvis" name="vendor_narvis" remote="narvis" />
   <project path="vendor/overlay" name="vendor_overlay" remote="narvis" />
