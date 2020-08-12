@@ -659,5 +659,8 @@
 
   <!-- CAF manifest -->
   <include name="caf_default.xml" />
+  
+  <!-- OpenGapps manifest -->
+  <include name="open_gapps.xml"/>
 
 </manifest>
