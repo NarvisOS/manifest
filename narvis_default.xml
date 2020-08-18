@@ -4,6 +4,9 @@
   <remote  name="github"
            fetch="https://github.com" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/NarvisOS" />
+
   <remote  name="narvis"
            fetch="https://github.com/NarvisOS" />
 
@@ -13,6 +16,7 @@
            sync-c="true"
            sync-j="8" />
 
+ 
   <!-- Narvis-OS -->
   <project path="manifest" name="manifest" remote="narvis" />
   <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="narvis" />
@@ -87,6 +91,7 @@
   <project path="vendor/narvis" name="vendor_narvis" remote="narvis" />
   <project path="vendor/overlay" name="vendor_overlay" remote="narvis" />
   <project path="vendor/oplauncher" name="oplauncher" remote="narvis" />
+  <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="gitlab" revision="10" />
   <!-- Prebuilts -->
   <project path="prebuilts/r8" name="prebuilts_r8" groups="pdk" clone-depth="1" remote="narvis" />
   <project path="prebuilts/tools-narvis" name="prebuilts_tools-narvis" remote="narvis" clone-depth="1" />
